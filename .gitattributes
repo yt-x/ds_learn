@@ -1,0 +1,16 @@
+# 统一设置文本文件使用 LF 换行符
+* text=auto eol=lf
+
+# 特别针对 Jupyter Notebook 文件
+*.ipynb text eol=lf
+
+# Windows 脚本
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 其他文本文件
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
