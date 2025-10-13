@@ -1,6 +1,7 @@
-def main():
-    print("Hello from ds-learn!")
+from pathlib import Path
 
+p = Path("C:/project/data/report.txt")
+new_p = p.with_suffix(".csv")
 
-if __name__ == "__main__":
-    main()
+print(p)      # C:\project\data\report.txt
+print(new_p)
