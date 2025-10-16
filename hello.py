@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+
 
 fig, axes = plt.subplots(1, 2, figsize=(10, 4))
 plt.suptitle("Figure Super Title (plt.suptitle)", fontsize=16, color='blue') # 设置 Figure 总标题
