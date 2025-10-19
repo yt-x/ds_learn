@@ -1,5 +1,4 @@
 version = 1
-revision = 1
 requires-python = ">=3.13"
 
 [[package]]
@@ -291,6 +290,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pillow" },
     { name = "plotly" },
     { name = "pyarrow" },
     { name = "python-docx" },
@@ -299,6 +299,7 @@ dependencies = [
     { name = "statsmodels" },
     { name = "wordcloud" },
     { name = "xlrd" },
+    { name = "zhplot" },
 ]
 
 [package.metadata]
@@ -308,6 +309,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "numpy", specifier = ">=2.3.0" },
     { name = "pandas", specifier = ">=2.3.0" },
+    { name = "pillow", specifier = ">=11.3.0" },
     { name = "plotly", specifier = ">=6.3.0" },
     { name = "pyarrow", specifier = ">=19.0.1" },
     { name = "python-docx", specifier = ">=1.2.0" },
@@ -316,6 +318,7 @@ requires-dist = [
     { name = "statsmodels", specifier = ">=0.14.4" },
     { name = "wordcloud", specifier = ">=1.9.4" },
     { name = "xlrd", specifier = ">=2.0.2" },
+    { name = "zhplot", specifier = ">=1.0.0" },
 ]
 
 [[package]]
@@ -1919,4 +1922,16 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/07/5a/377161c2d3538d1990d7af382c79f3b2372e880b65de21b01b1a2b78691e/xlrd-2.0.2.tar.gz", hash = "sha256:08b5e25de58f21ce71dc7db3b3b8106c1fa776f3024c54e45b45b374e89234c9", size = 100167 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1a/62/c8d562e7766786ba6587d09c5a8ba9f718ed3fa8af7f4553e8f91c36f302/xlrd-2.0.2-py2.py3-none-any.whl", hash = "sha256:ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9", size = 96555 },
+]
+
+[[package]]
+name = "zhplot"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e1/89/398d0ce3a115a4c6daca733caf23a75cfe0392d2f3bdb2d85ada1d7a6533/zhplot-1.0.0.tar.gz", hash = "sha256:79d357a8eff5e800f4daafa3696494db33b48eb206a991d36be36c40d8dba13a", size = 6297817 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/f9/c22988291c0ae3e60fa410e32eee6dbd69626c3fb0fcc1512d6a03b26bd4/zhplot-1.0.0-py3-none-any.whl", hash = "sha256:a5dccc5fc1116eafaa54d99c903ad74836e3ab9f5bdc45d27c29a97202268a2a", size = 6311725 },
 ]
